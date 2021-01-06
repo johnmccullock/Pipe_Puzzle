@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <locale language="en" region="US"/>
+    <best_times/>
+    <difficulty>MEDIUM</difficulty>
+    <images>
+        <cross path="/images/cross_junction1_200x200.png"/>
+        <elbow path="/images/elbow_nw_200x200.png"/>
+        <green_gauge path="/images/green_gauge_200x200.png"/>
+        <pipe path="/images/pipe1_200x200.png"/>
+        <red_gauge path="/images/red_gauge_200x200.png"/>
+        <resize_grip path="/images/resize_grip.png"/>
+        <t_junction path="/images/t_junction_2_200x200.png"/>
+        <tile path="/images/puzzle_tile.png"/>
+    </images>
+    <puzzles>
+        <easy path="/data/easy_puzzle.xml"/>
+        <medium path="/data/medium_puzzle.xml"/>
+        <hard path="/data/hard_puzzle.xml"/>
+    </puzzles>
+</configs>

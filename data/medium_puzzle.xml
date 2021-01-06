@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puzzles>
+	<puzzle>
+		<dev_id>1</dev_id>
+		<grid size="5"/>
+		<parts elbows="8" pipes="1" t_junctions="0" crosses="1"/>
+		<starts>
+			<start x="0" y="0" orientation="HORIZONTAL"/>
+			<start x="0" y="4" orientation="HORIZONTAL"/>
+		</starts>
+		<goals>
+			<goal x="4" y="1" orientation="HORIZONTAL"/>
+			<goal x="4" y="2" orientation="HORIZONTAL"/>
+		</goals>
+		<solution>
+			<part type="ELBOW" x="1" y="0" angle="1.5"/>
+			<part type="ELBOW" x="1" y="1" angle="0.5"/>
+			<part type="ELBOW" x="2" y="1" angle="1.5"/>
+			<part type="ELBOW" x="2" y="2" angle="0.5"/>
+			<part type="CROSS" x="3" y="2" angle="0.0"/>
+			<part type="ELBOW" x="3" y="1" angle="0.0"/>
+			<part type="ELBOW" x="1" y="4" angle="1.0"/>
+			<part type="ELBOW" x="1" y="3" angle="0.0"/>
+			<part type="PIPE" x="2" y="3" angle="0.0"/>
+			<part type="ELBOW" x="3" y="3" angle="1.0"/>
+		</solution>
+	</puzzle>
+	<puzzle>
+		<dev_id>2</dev_id>
+		<grid size="6"/>
+		<parts elbows="6" pipes="0" t_junctions="2" crosses="0"/>
+		<starts>
+			<start x="0" y="2" orientation="HORIZONTAL"/>
+			<start x="0" y="3" orientation="HORIZONTAL"/>
+		</starts>
+		<goals>
+			<goal x="5" y="2" orientation="HORIZONTAL"/>
+			<goal x="5" y="3" orientation="HORIZONTAL"/>
+		</goals>
+		<solution>
+			<part type="ELBOW" x="1" y="2" angle="1.5"/>
+			<part type="T_JUNCTION" x="1" y="3" angle="0.5"/>
+			<part type="ELBOW" x="2" y="3" angle="1.0"/>
+			<part type="ELBOW" x="2" y="2" angle="0.0"/>
+			<part type="ELBOW" x="3" y="2" angle="1.5"/>
+			<part type="ELBOW" x="3" y="3" angle="0.5"/>
+			<part type="T_JUNCTION" x="4" y="3" angle="0.5"/>
+			<part type="ELBOW" x="4" y="2" angle="0.0"/>
+		</solution>
+	</puzzle>
+	<puzzle>
+		<dev_id>3</dev_id>
+		<grid size="7"/>
+		<parts elbows="12" pipes="4" t_junctions="0" crosses="1"/>
+		<starts>
+			<start x="0" y="0" orientation="HORIZONTAL"/>
+			<start x="0" y="3" orientation="HORIZONTAL"/>
+		</starts>
+		<goals>
+			<goal x="6" y="0" orientation="HORIZONTAL"/>
+			<goal x="6" y="5" orientation="HORIZONTAL"/>
+		</goals>
+		<solution>
+			<part type="ELBOW" x="1" y="0" angle="1.5"/>
+			<part type="ELBOW" x="1" y="1" angle="0.5"/>
+			<part type="PIPE" x="2" y="1" angle="0.0"/>
+			<part type="ELBOW" x="3" y="1" angle="1.5"/>
+			<part type="CROSS" x="3" y="2" angle="0.0"/>
+			<part type="PIPE" x="1" y="3" angle="0.0"/>
+			<part type="ELBOW" x="2" y="3" angle="1.0"/>
+			<part type="ELBOW" x="2" y="2" angle="0.0"/>
+			<part type="ELBOW" x="3" y="3" angle="0.5"/>
+			<part type="ELBOW" x="4" y="3" angle="1.5"/>
+			<part type="ELBOW" x="4" y="4" angle="0.5"/>
+			<part type="ELBOW" x="5" y="4" angle="1.5"/>
+			<part type="ELBOW" x="5" y="5" angle="0.5"/>
+			<part type="ELBOW" x="4" y="2" angle="1.0"/>
+			<part type="PIPE" x="4" y="1" angle="0.5"/>
+			<part type="ELBOW" x="4" y="0" angle="0.0"/>
+			<part type="PIPE" x="5" y="0" angle="0.0"/>
+		</solution>
+	</puzzle>
+</puzzles>
